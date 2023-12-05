@@ -3,6 +3,7 @@ import { makeStyles } from '@mui/styles';
 export default makeStyles(() => ({
   root: {
     display: 'flex',
+    flexDirection: 'column',
     height: '100%',
   },
   toolbar: {
@@ -12,6 +13,7 @@ export default makeStyles(() => ({
     flexGrow: 1,
     padding: '2rem',
     width: '100%',
+    marginLeft: '240px',
   },
   
 }));
