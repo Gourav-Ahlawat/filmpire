@@ -13,4 +13,5 @@ export default makeStyles(() => ({
     padding: '2rem',
     width: '100%',
   },
+  
 }));
